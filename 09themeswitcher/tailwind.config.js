@@ -1,9 +1,9 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: 'class', // enables manual dark mode toggle
+  darkMode: 'class', // or 'media'
   content: [
     './index.html',
-    './src/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.{js,ts,jsx,tsx}', // adjust based on your setup
   ],
   theme: {
     extend: {},

@@ -3,10 +3,13 @@ import useTheme from '../context/theme';
 
 export default function ThemeBtn() {
   const {themeMode,lightTheme,darkTheme}=useTheme();
+  // console.log(themeMode);  
+  // console.log(lightTheme);  
   const onChangeBtn=(e)=>{
     const darkModeStatus=e.currentTarget.checked;
-    if(darkModeStatus) darkTheme();
+    if(darkModeStatus) darkTheme() 
     else lightTheme();
+  // console.log(darkTheme);
   }
   return (
         <label className="relative inline-flex items-center cursor-pointer">

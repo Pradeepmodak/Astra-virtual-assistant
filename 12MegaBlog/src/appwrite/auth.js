@@ -1,6 +1,6 @@
 // this snippet can be used for authentication if appwrite is used
 
-import conf from './conf/conf.js';
+import conf from '../conf/conf.js';
 import { Client, Account, ID } from "appwrite";
 
 //Better code practices
